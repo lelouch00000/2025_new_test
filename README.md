@@ -1,19 +1,24 @@
 # git 配置步骤
 ```bash
-sudo apt install git
-在合适位置创建文件夹
+# 第一步先点击github或者gitee目标仓库中右上角fork，fork到自己的仓库中
+# 第二步在本地创建文件夹或者使用指令
 mkdir Test
+# 第三步在终端中输入以下命令
 cd Test
+sudo apt install git
+
 git init
 git config --global user.name "Your Name"
 git config --global user.email "youremail@domain.com"
 
-git remote add origin https://github.com/lelouch00000/2025_new_test.git
+git remote add origin https://github.com/Your Name/2025_new_test.git
 git pull origin Vice-branch
 git add .
 git commit -m "first commit"
-git push -u origin Vice-branch
+git push -u origin master
 
+# 第五步在github或者gitee中点击pull request
+# 第六步创建request
 ```
 
 # 培训进度
