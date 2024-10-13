@@ -16,6 +16,7 @@ git push -u origin master
 
 ```
 
+# 培训进度
 ```mermaid
 gantt
     title 团队任务进度
