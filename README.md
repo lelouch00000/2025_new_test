@@ -9,7 +9,7 @@ git config --global user.name "Your Name"
 git config --global user.email "youremail@domain.com"
 
 git remote add origin https://github.com/lelouch00000/2025_new_test.git
-git pull origin master
+git pull origin Vice-branch
 git add .
 git commit -m "first commit"
 git push -u origin Vice-branch
